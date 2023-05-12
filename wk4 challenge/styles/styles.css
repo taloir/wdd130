@@ -1,0 +1,40 @@
+main {
+    background-color: pink
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h1:hover {
+    color:black;
+}
+
+.quote1{
+    text-align:center;
+    color: white;
+}
+
+.principles{
+    margin-left:25%
+}
+
+.quote2 {
+    margin-left: 32%;
+    margin-right: 32%;
+    text-align:center;
+    color: white;
+    font-size: 200%;
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+.source {
+    text-align:center;
+
+}
