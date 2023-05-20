@@ -1,0 +1,17 @@
+body{
+    background-color: grey
+}
+
+.icon{
+    width:22%;
+    padding:0;
+    margin: 30px;
+    border-width: 10px;
+    border-style:solid;
+    border-color: rgb(41, 39, 39);
+    border-radius: 50%;
+}
+
+.banner{
+    width:100%;
+}
