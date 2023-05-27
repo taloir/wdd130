@@ -1,0 +1,36 @@
+.grid{
+    display: grid;
+    grid-template-columns: 500px, 500px;
+}
+
+body{
+    background-color:grey;
+}
+
+img{
+    width: 400px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: white;
+}
+
+p{
+    z-index: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 300%;
+    color: maroon;
+}
+
+h1{
+    z-index: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 600%;
+}
