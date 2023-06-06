@@ -55,8 +55,7 @@ header {
     background-color:#4B3B40;
     font-size:22px;
     display: grid;
-    grid-template-columns: 150px, auto;
-    grid-template-rows: 1fr;
+    grid-template-columns: 150px auto;
 }
 
 .book, .join{
@@ -228,8 +227,7 @@ main section img{
     grid-row: 2/3;
 }
 
-.mountain{
-    width: 100%;
+.mountains{
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
