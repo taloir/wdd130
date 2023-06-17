@@ -1,0 +1,57 @@
+img{
+    width: 100%;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#uptime-counter {
+    color:rgb(1, 1, 112);
+    text-align:center;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+#title {
+    font-size: 70px;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+#main-paragraph {
+    width:400px;
+    color:grey;
+    font-size:30px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footcards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footcards div{
+    background-color: steelblue;
+    width: 100%;
+    height: 125px;
+    margin:5px;
+}
+
+.card-category{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.card-variable{
+    text-align: center;
+    color: white;
+    font-size:30px;
+    margin-bottom:0px;
+}
