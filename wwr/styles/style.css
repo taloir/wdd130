@@ -284,6 +284,58 @@ nav{
 /* Rivers selection page */
 /**/
 
-.rivers h2{
-    margin-top:100px;
-  }
+.river-title{
+    margin-top:70px;
+}
+
+.river-img {
+    width:350px;
+    height:265px;
+    justify-self:center;
+    margin-top:70px;
+}
+
+.page-name{
+    font-size:80px;
+    margin-bottom:0px;
+    margin-left: 30px;
+}
+
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 460px 1fr 460px;
+    grid-template-rows: auto auto auto;
+}
+
+#salmon-river-img{
+    grid-column:1/2;
+    grid-row:1/2;
+}
+
+#salmon-river-text{
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row:1/2;
+    margin-left: 30px;
+}
+
+#desolation-img{
+    grid-column:3/4;
+    grid-row:2/3;
+}
+
+#desolation-text{
+    grid-column:1/3;
+    grid-row:2/3;
+    margin-left: 30px;
+}
+
+#grand-canyon-img{
+    grid-column:1/2;
+    grid-row:3/4;
+}
+
+#grand-canyon-text{
+    grid-column:2/4;
+    grid-row:3/4;
+}
