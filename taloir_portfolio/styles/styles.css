@@ -114,7 +114,6 @@ nav {
 
 }
 nav a {
-  padding:1em;
   min-width: 280px;
   text-decoration: none;
   padding: 10px;
@@ -249,7 +248,11 @@ nav a:hover {
 }
 
 footer{
-  background-color:  var(--nav-hover-background-color);
+  background-color:#696047;
+}
+
+footer p{
+  color:var(--paragraph-color-on-color);
 }
 
 .seedeye{
@@ -267,4 +270,126 @@ nav{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width:auto;
+}
+
+/* - - - - - CHILD PAGE 1: IHU - - - - - */
+
+.gate{
+  width: 200px;
+  float:left;
+}
+
+.drive-link{
+  background-color: var(--accent2-color);
+  float:right;
+  padding: 20px;
+}
+
+.drive-link a{
+  padding: 20px;
+  color:#BBE6E4;
+}
+
+.setting_intro{
+  margin: 50px;
+}
+
+.form_guide{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px;
+}
+
+.left_bullet{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.character_form{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.right_bullet{
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.link_bar{
+  background-color: #2D82B7;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.link_bar a{
+  color: #BBE6E4;
+  margin: 50px;
+}
+
+.fools_icon{
+  float: left;
+  width: 200px;
+  border-radius: 200px;
+}
+
+.server_link{
+  float: right;
+  background-color: #2D82B7;
+  padding: 20px;
+}
+
+.server_link a{
+  color: #BBE6E4;
+}
+
+.suggestions{
+  display: grid;
+  grid-template-columns: 70% 30%;
+} 
+
+.suggestion_text{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.suggestion_link{
+  float: left;
+  background-color: #2D82B7;
+  padding: 20px;
+  grid-column: 1/2;
+  height: 40px;
+  width: 200px;
+}
+
+.suggestion_link a{
+  color:#BBE6E4;
+}
+
+.vote_box{
+  float: right;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #2D82B7;
+  border-width: 15px;
+  width:100%;
+  margin-top: 15%;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.vote_box a{
+  font-size: 30px;
+}
+
+.ihu_main{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+.suggestions p{
+  text-align: left;
 }
