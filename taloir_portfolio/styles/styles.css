@@ -297,7 +297,9 @@ nav{
 .form_guide{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .left_bullet{
@@ -323,6 +325,7 @@ nav{
   background-color: #2D82B7;
   padding: 20px;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .link_bar a{
@@ -336,13 +339,13 @@ nav{
   border-radius: 200px;
 }
 
-.server_link{
+.link{
   float: right;
   background-color: #2D82B7;
   padding: 20px;
 }
 
-.server_link a{
+.link a{
   color: #BBE6E4;
 }
 
@@ -392,4 +395,37 @@ nav{
 
 .suggestions p{
   text-align: left;
+}
+
+/* - - - - - CHILD PAGE 2: Metamon - - - - - */
+
+.metamon_main{
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+
+.info{
+  margin-top: 50px;
+}
+
+.satu{
+  width: 200px;
+  float: right;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.gandr_example{
+  float: left;
+  margin-top: 50px;
+}
+
+.columns_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gandr{
+  width:100px;
+  float:left;
 }
